@@ -1,6 +1,8 @@
 # Practical Assignment 2
-Please put your name (or names if you work in a group) here:  
-**Name**: .......
+**Dealine**: 12.03.2021
+
+Please put your name here:  
+**Name:** .......
 ## Problem 2.1
 ### Feature Extraction (Points 30)
 1. Fork the current repository
@@ -20,3 +22,12 @@ Please put your name (or names if you work in a group) here:
 
 ### Note
 Please do not copy-paste the example code from the OpenCV documentation, but try to understand the example code and implement the solution to the problem by yourself.
+
+## Submission
+Please submit the assignment by making a pull request.
+**Important** : Please make sure that
+- No _extra files_ are submitted (except those, which were mentioned in the assignment)
+- The changes were made _only_ in those files where you were asked to write your code
+- The Continiouse Integration system (appVeyor) can build the submitted code
+- The rendered images are also submitted in the folder "renders" 
+
