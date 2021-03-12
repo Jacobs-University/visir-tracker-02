@@ -2,7 +2,7 @@
 **Dealine**: 12.03.2021
 
 Please put your name here:  
-**Name:** .......
+**Name:** Alex Tretyakov & Adnan Abu Ramadan
 ## Problem 2.1
 ### Feature Extraction (Points 30)
 1. Fork the current repository
