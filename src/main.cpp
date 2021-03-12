@@ -116,9 +116,8 @@ int main() {
         add(img, mask, frame);
         imshow("Camera", frame);
 
-
 		//imshow("Camera", img);
-        //goodFeaturesToTrack(0, 0);
+        goodFeaturesToTrack(0, 0);
 		int key = waitKey(5);
 		if (key == 27 || key == 'q') break;
 
