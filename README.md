@@ -2,7 +2,7 @@
 **Dealine**: 18.10.2021
 
 Please put your name here:  
-**Name:** .......
+**Name:** Muhammad Dorrabb Khan Niazi
 ## Problem 2.1
 ### Feature Extraction (Points 30)
 1. Fork the current repository
@@ -19,6 +19,9 @@ Please put your name here:
 ### Optical Flow Visualization (Points 20)
 1. Visualize the Optical flow, using the displacement vectors calculated in Problem 2.2. For this use the OpenCV [drawing functions](https://docs.opencv.org/2.4/modules/core/doc/drawing_functions.html). 
 2. Now please move the detected features from Problem 2.1 by the displacement vectors alculated in Problem 2.2 and draw them with the new position in every frame from web-camera. If this is implemented correctly, the features will move with the moving objects in your video stream.
+
+Output when I move myself a bit:
+![image](output.png)
 
 ### Note
 Please do not copy-paste the example code from the OpenCV documentation, but try to understand the example code and implement the solution to the problem by yourself.
