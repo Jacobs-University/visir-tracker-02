@@ -9,6 +9,7 @@ Please put your name here:
 2) Line 16 in CMakeLists.txt was replaced by line 17 to fix a linker issue.
 
 **Solutions:**
+
 2.1) The method ```cv.goodFeaturesToTrack()``` was used to extract key points every 300th frame.
 
 2.2) The method ```cv.calcOpticalFlowPyrLK()``` was used to extrapolate the new key points from the previous frames key points. Every 300th frame the key points are replaced by the output of ```cv.goodFeaturesToTrack()```.
