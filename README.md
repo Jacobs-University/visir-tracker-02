@@ -2,7 +2,19 @@
 **Dealine**: 18.10.2021
 
 Please put your name here:  
-**Name:** .......
+**Name:** Hannes Diethelm
+
+**Changes:**
+1) Solutions to problems 1.1 and 1.2 were added in "main.cpp".
+2) Line 16 in CMakeLists.txt was replaced by line 17 to fix a linker issue.
+
+**Solutions:**
+2.1) The method ```cv.goodFeaturesToTrack()``` was used to extract key points every 300th frame.
+
+2.2) The method ```cv.calcOpticalFlowPyrLK()``` was used to extrapolate the new key points from the previous frames key points. Every 300th frame the key points are replaced by the output of ```cv.goodFeaturesToTrack()```.
+
+2.3) The method ```cv.line()``` was used to draw the optical flow and the key point features were updated every iteration.
+
 ## Problem 2.1
 ### Feature Extraction (Points 30)
 1. Fork the current repository
