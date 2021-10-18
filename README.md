@@ -5,7 +5,7 @@ Please put your name here:
 **Name:** Hannes Diethelm
 
 **Changes:**
-1) Solutions to problems 1.1 and 1.2 were added in "main.cpp".
+1) Solutions to problems 2.1, 2.2 and 2.3 were added in "main.cpp".
 2) Line 16 in CMakeLists.txt was replaced by line 17 to fix a linker issue.
 
 **Solutions:**
